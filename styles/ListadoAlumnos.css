@@ -1,0 +1,56 @@
+table {
+  border: 1px solid black;
+
+}
+th, td {
+  color: black;
+  text-align: center;
+  vertical-align: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+th{
+  background-color: #F9EE68;
+}
+td{
+  background-color: rgba(249, 238, 104, 0.5);
+}
+.alumnos-list{
+  margin-top: 100px;
+
+}
+.alumnos-list a{
+  color: black;
+  text-decoration: none;
+}
+.alumnos-list a:hover{
+  color: #D31A1B;
+}
+.registry-form label, .registry-form input, .registry-form select, .registry-form option, .registry-form p, .alumnos-list a{
+  color: black;
+}
+.registry-form p{
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.registry-form h3{
+  padding: 5px;
+  background-color:#D31A1B;
+}
+.registry-form input{
+  margin-bottom: 10px;
+  width: 200px;
+}
+.registry-form{
+  border: 1px solid black;
+  text-align: center;
+  padding: 0px;
+  border-radius: 5px;
+  width: 250px;
+}
+.main-registry-form{
+  margin-top: 100px;
+  margin-right: 10px;
+}

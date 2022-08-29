@@ -1,0 +1,65 @@
+.contain-title-courses{
+  padding-top: 50px;
+  text-align: center;
+}
+.contain-courses{
+  background-color: #E7E7E7;
+}
+.contain-courses p, h3{
+  color: black;
+}
+.contain-courses h3{
+  border-bottom: 1px solid black;
+}
+
+.main-contact-information{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-top: 1px dotted black;
+  border-bottom: 1px dotted black;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contact-information p{
+  color: black;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.price{
+  color: black;
+  font-weight: bolder;
+}
+.contact-information a{
+  text-decoration:underline;
+  color: blue;
+}
+
+.contact-information a:active{
+  color: #5D93FF;
+}
+.courses-image{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.courses-image img{
+  width: 80%;
+  height: auto;
+}
+.discount{
+  text-align: center;
+  font-size: 25px;
+}
+.discount h3{
+  color: #D31A1B;
+}
+.discount p{
+  margin-top: 20px;
+  font-weight: bold;
+}

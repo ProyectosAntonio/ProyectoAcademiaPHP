@@ -1,0 +1,86 @@
+.title-aboutus{
+  text-align: center;
+  margin-top: 50px;
+}
+.title-aboutus h2{
+  color: black;
+  font-size: 22px;
+}
+.main-contain-aboutus{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
+}
+.main-contain-aboutus li, .main-contain-aboutus span{
+  color: black;
+  margin-bottom: 30px;
+}
+.main-contain-aboutus ul{
+  list-style-type: "►";
+}
+
+
+.contain-description-aboutus{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #E7E7E7;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.information-aboutus p, .information-aboutus h2, .information-aboutus b{
+  color: black;
+}
+.information-aboutus p{
+  margin-top: 30px;
+  line-height : 25px;
+  font-size: 18px;
+  text-align: justify;
+}
+.information-aboutus h2{
+  text-align: center;
+}
+.images-aboutus{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+@media (max-width:1100px){
+  .images-aboutus {
+    text-align: center;
+  }
+
+  .images-aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .image-aula img{
+    margin-right: -50px;
+  }
+
+  .image-academy img{
+    margin-left: -50px;
+  }
+}
+.images-aboutus img{
+  width: auto;
+  height: 350px;
+  margin-top: 40px;
+}
+.image-aula{
+  margin-right: 50px;
+}
+
+.image-academy{
+  margin-left: 50px;
+}

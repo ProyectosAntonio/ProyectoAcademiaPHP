@@ -1,0 +1,17 @@
+.submenu{
+  width: 155px;
+  margin-left: -100px;
+}
+.virtual-tittle{
+  letter-spacing: 2px;
+}
+.paper-icon{
+  width: 23px;
+  height: auto;
+  margin-left: -5px;
+  margin-top: 10px;
+}
+.ini-personal-area:hover{
+  background-color: #C1C1C1;
+  cursor: pointer;
+}

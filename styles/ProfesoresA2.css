@@ -1,0 +1,36 @@
+.main-content-courses h3{
+  color: black;
+  text-decoration:underline;
+}
+button, form input, form select, form select option, .file-content, form p{
+  color: black;
+}
+.file-content{
+  margin-bottom: 30px;
+  border-top: 1px solid black;
+}
+.main-content-courses a{
+  color: #D31A1B;
+  text-decoration: none;
+}
+.main-content-courses a:hover{
+  text-decoration: underline;
+}
+.main-content-courses form h3{
+  text-decoration: none;
+  background-color: #D31A1B;
+  color: white;
+  margin-bottom: 20px;
+}
+.content-form-file{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  border: 1px solid black;
+  text-align: center;
+  height: 150px;
+  width: 300px;
+  margin-top: 20px;
+}

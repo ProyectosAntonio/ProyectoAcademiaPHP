@@ -1,0 +1,53 @@
+.menu-personal-area{
+  margin-bottom: 100px;
+}
+.edit-profile-contain input, label, .echo, .edit-profile-contain p{
+  color: black;
+}
+
+.edit-profile-contain{
+  border: 1px solid black;
+  margin-right: 510px;
+  margin-top: 100px;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+}
+.edit-profile-form{
+  padding: 10px;
+}
+.edit-profile-form label{
+  font-size: 20px;
+
+}
+.edit-profile-form .submit-edit-profile{
+  font-size: 18px;
+  margin-top: 10px;
+  width: 180px;
+}
+.edit-profile-form .submit-edit-profile:hover{
+  cursor: pointer;
+}
+.edit-profile-form .label-edit-profile{
+  margin-bottom: -12px;
+}
+
+.edit-profile-form input{
+  font-size: 16px;
+  width: 260px;
+}
+.title-edit-profile{
+  background-color: #D31A1B;
+  width: 300px;
+  margin: -10px -10px 0px -10px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+@media (max-width:600px){
+  .edit-profile-contain{
+    border: 0;
+  }
+}

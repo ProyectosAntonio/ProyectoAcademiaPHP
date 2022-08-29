@@ -1,0 +1,269 @@
+*{
+  margin: 0;
+  color: white;
+}
+@font-face{
+  font-family: Signika;
+  src: url("/ProyectoFinal/Fonts/Signika-Regular.ttf");
+}
+.company-name{
+  font-family: Signika;
+  font-size: 30px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+.logo h2{
+
+  font-size: 20px;
+  text-decoration: none;
+}
+.logo img{
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+.contain-header{
+  height: 64px;
+  background-color: #D31A1B;
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  margin-right: 3%;
+  font-size: 20px;
+}
+.menu ul {
+  background-color: #D31A1B;
+  display: flex;
+  list-style: none;
+}
+.menu ul ul {
+  display: none;
+}
+.menu a {
+  display: block;
+  padding: 10px 10px;
+  color: #FFF;
+  text-decoration: none;
+  line-height: 32px;
+  font-weight: 700;
+
+}
+.submenu{
+  padding-bottom: 20px;
+  text-align: left;
+  font-size: 18px;
+  padding-left: 30px;
+
+}
+.submenu a{
+  text-align: left;
+}
+.menu a i {
+  margin-left: 10px;
+}
+.submenu li:hover{
+  text-decoration: underline;
+}
+.menu ul li:hover ul{
+  transition: all 0.3s ease;
+  display: block;
+  position: absolute;
+}
+.down-arrow{
+  font-size: 10px;
+}
+
+.virtual-tittle{
+  display: flex;
+  align-items: center;
+  margin-left: 3%;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+}
+.cursor-name{
+  cursor: pointer;
+}
+
+.main-contain-body-index, .main-contain-body{
+  display: flex;
+  justify-content: space-between;
+}
+.personal-area{
+  text-align: left;
+  width: 300px;
+  margin-left: 10px;
+}
+.menu-personal-area{
+  border: 1px solid black;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+.menu-personal-area ul{
+  margin:0;
+  padding-left: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+.menu-personal-area  li{
+  color: black;
+  list-style: none;
+  margin-bottom: 5px;
+  margin-left: -20px;
+  background-color: #E7E7E7;
+}
+.menu-personal-area  li a{
+  color: black;
+}
+.menu-personal-area a{
+  text-decoration: none;
+}
+.menu-personal-area  a li:hover{
+  background-color: #C1C1C1;
+}
+
+.tittle-nav{
+  font-weight: bold;
+  font-size: 22px;
+}
+.main-title-nav >li{
+  background-color: #D31A1B;
+  color: white;
+  margin-bottom: 20px;
+}
+.submenu-personal-area ul{
+  margin-right: 0px;
+  margin-top: -50px;
+  text-align: center;
+}
+.submenu-personal-area li{
+  background-color: white;
+  margin-bottom: 10px;
+  margin-left: -40px;
+}
+
+.main-Courses h2{
+  color: white;
+  border-bottom: 1px solid black;
+  background-color: #D31A1B;
+  text-align: center;
+}
+.main-Courses{
+  margin-top: 30px;
+  border: 2px solid black;
+  width: 1000px;
+  text-align: left;
+  height: 1000px;
+  vertical-align: text-top;
+  margin-left: 30px;
+}
+.image-course{
+  width: 250px;
+  height: auto;
+  margin-top: 50px;
+}
+.menu-personal-area a:hover{
+  text-decoration: underline;
+}
+
+
+
+.final-contain{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 20px 50px 20px 50px;
+  background-color: #D31A1B;
+  margin-top: 70px;
+  color: white;
+  line-height: 30px;
+}
+.final-contain-socialmedia{
+  text-align: center;
+}
+
+.final-contain-socialmedia img{
+  width: 30px;
+  height: 30px;
+}
+.final-contain-contact{
+  text-align: left;
+}
+.final-contain-DELE img{
+  width: 145px;
+  height: auto;
+}
+.final-contain-IC{
+  width: 145px;
+  height: auto;
+}
+.final-contain-IC .cervantes-logo{
+  width: 150px;
+  height: auto;
+}
+
+
+b, .main-content-courses a{
+  color: black;
+}
+.main-content-courses a {
+  text-align: left;
+}
+.link-content-courses{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right:50px;
+}
+body a{
+  color: black;
+}
+@media (max-width:1000px){
+  .final-contain, .logo, .main-contain-courses{
+    flex-direction: column;
+  }
+  .final-contain-DELE{
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+
+}
+@media (max-width:1200px){
+.link-content-courses, .main-contain-body-index{
+  display: flex;
+  flex-direction: column;
+}
+}
+@media (max-width:1051px){
+
+.main-content-courses, .main-Courses{
+  position: relative;
+  width: 300px;
+}
+.main-Courses{
+  margin-left: 100px;
+}
+}
+@media (max-width:600px){
+  .main-contain-body{
+    flex-direction: column;
+  }
+   .edit-profile-contain{
+    margin-left: 300px;
+    border: 0px;
+  }
+  .edit-profile-form{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: -100px;
+  }
+
+}
